@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Seven</title>
+    <link rel="icon" href="/img/icon-smilegate.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="grey lighten-5">
+  <header>
+    <nav id="header-container" class="nav-wrapper">
+        <div>
+            <ul class="center">
+                <li id="bnt-login"><a class="waves-effect waves-light btn orange darken-2 modal-trigger" href="#modal-login">
+                    Login <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a></li>
+                <div class="hide-on-small-only">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="story.html">Story</a></li>
+                </div>
+                <li class="right hide-on-med-and-up">
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="story.html">Story</a></li>
+    </ul>
+</header>
+
+<div id="modal-login" class="modal">
+    <div class="modal-content row">
+        <div class="center">
+            <span class="orange-text text-darken-2">STOVE</span>
+        </div>
+        <div id="login-fields" class="container">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email"><i class="fa-solid fa-user"></i>Email</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password"><i class="fa-solid fa-key"></i>Password</label>
+            </div>
+            
+        </div>
+        <div class="col s12 center">
+            <a href="#" class="modal-close waves-effect waves-light btn orange darken-2"><i class="fa-solid fa-arrow-right left"></i>ENTER</a>
+        </div>
+    </div>
+  </div>
+
+    <main class="container">
+        <table>
+            <thead>
+              <tr>
+                  <th>Icon</th>
+                  <th>Name</th>
+                  <th>Element</th>
+                  <th>Horoscope</th>
+                  <th>Class</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              <tr>
+                <td><img class="responsive-img" src="img/alencia-Icon.png" alt=""></td>
+                <td>Alencia</td>
+                <td>Earth</td>
+                <td>Cancer</td>
+                <td>Warrior</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/ras-icon.png" alt=""></td>
+                <td>Adventurer Ras</td>
+                <td>Fire</td>
+                <td>Libra</td>
+                <td>Knight</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/amid-icon.png" alt=""></td>
+                <td>Amid</td>
+                <td>Ice</td>
+                <td>Taurus</td>
+                <td>Soul Weaver</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/Lionheart-Cermia-icon.png" alt=""></td>
+                <td>Lionheart Cermia</td>
+                <td>Light</td>
+                <td>Pisces</td>
+                <td>Warrior</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/aravi-icon.png" alt=""></td>
+                <td>Apocalypse Ravi</td>
+                <td>Dark</td>
+                <td>Cancer</td>
+                <td>Warrior</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/aria-icon.png" alt=""></td>
+                <td>Aria</td>
+                <td>Ice</td>
+                <td>Taurus</td>
+                <td>Mage</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/basar-icon.png" alt=""></td>
+                <td>Basar</td>
+                <td>Earth</td>
+                <td>Aquarius</td>
+                <td>Mage</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/clarissa-icon.png" alt=""></td>
+                <td>Clarissa</td>
+                <td>Ice</td>
+                <td>Leo</td>
+                <td>Warrior</td>
+              </tr>
+              <tr>
+                <td><img class="responsive-img" src="img/dcorvus-icon.png" alt=""></td>
+                <td>Dark Corvus</td>
+                <td>Dark</td>
+                <td>Capricorn</td>
+                <td>Warrior</td>
+              </tr>
+            </tbody>
+          </table>
+    </main>
+    
+    <footer class="orange darken-2">
+        <div class="col s12 m12 l12 lx12 center white-text">
+            &copy; 2023 SmileGate.com
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

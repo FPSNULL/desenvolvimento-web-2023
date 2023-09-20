@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    font-family: 'Inclusive Sans', sans-serif;
+}
+header {
+    background: url(../img/wallpaper-epic-seven.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#header-container {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#bnt-login a, i {
+    font-size: 1.2rem;
+}
+table td img {
+    border-radius: 360px;
+}
+@media screen and (min-width: 500px) {
+    table td img {
+        max-width: 100px !important;
+    }
+}
+#card-home {
+    padding-top: 20px;
+}
+#modal-login {
+    max-width: 400px;
+    border-radius: 15px;
+}
+#modal-login span {
+    font-family: 'Concert One', cursive;
+    font-size: 2rem;
+}
+#modal-login .modal-footer i {
+    font-size: 2rem;
+}
+#login-fields i {
+    margin-right: 10px;
+}
+.input-field input[type=email]:focus + label, .input-field input[type=password]:focus + label {
+    color: #f57c00 !important;
+}
+.input-field input[type=email]:focus, .input-field input[type=password]:focus {
+    border-bottom: 1px solid #f57c00 !important;
+    box-shadow: 0 1px 0 0 #f57c00 !important;
+}
+#login-fields .btn {
+    width: 400px;
+}
